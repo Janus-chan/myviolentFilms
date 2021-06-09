@@ -1,0 +1,267 @@
+* {
+  margin: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+html,body{
+  margin:0;
+  padding: 0;
+  width:100%;
+  height:100%;
+    overflow-x: hidden;
+}
+#highers{
+  position: relative;
+    overflow: hidden;
+}
+body {
+  position: relative;
+  overflow-x:  hidden;
+}
+
+#mainbody {
+  background-color: #dad8d8;
+}
+
+
+.disclaim{
+  background-color: #c10000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.warning{
+  color:#ebe4e4;
+}
+.total .container-fluid {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 3em;
+}
+
+.brands {
+  font-family: 'Shadows Into Light', cursive;
+  background:  #e10909;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 45px;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.firstbrand {
+  background: rgb(129,0,0);
+ background: linear-gradient(270deg, rgba(129,0,0,1) 0%, rgba(206,18,18,1) 75%, rgba(25,67,80,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: 3rem;
+  font-family: 'Commissioner', sans-serif;
+}
+
+
+
+.lower {
+  margin-left: 81%;
+  font-size: 1.3rem;
+  font-family: sans-serif;
+}
+
+
+
+.row img {
+  position: relative;
+  bottom: 0;
+  max-width: 14rem;
+  height: 20rem;
+  width: 30rem;
+  object-fit: fill;
+  box-shadow: 6px 5px 7px #000;
+
+  transition: all 500ms;
+}
+
+ img:hover {
+  bottom: 5px;
+  box-shadow: 8px 9px 10px #5d5d63;
+}
+
+.col-lg-4 .col-md-6 {
+  padding-right: -3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  /* padding: 3rem 2rem; */
+}
+
+i {
+  color: #FF8C00;
+}
+
+span {
+  color: #000;
+}
+
+h2 {
+
+background: -webkit-linear-gradient(#eee, #333);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+  line-height: 1rem;
+  padding-top: 1rem;
+  text-shadow: 1px 1px 2px #7d7676;
+}
+
+.row div {
+  text-align: center;
+  padding: 1rem;
+}
+
+div a {
+  font-size: .7em;
+  text-decoration: none;
+  font-weight: 800;
+  color: #0a0a0a;
+}
+
+
+.imdb {
+  background-color: #ffe416;
+  padding: .2em 0.3em 0.3em 0.3em;
+  border: 0em solid #000;
+  border-radius: 5px 5px;
+}
+
+.imdb a:hover{
+  color: #cccccc;
+
+}
+
+.button{
+  position: relative;
+  color:red;
+  font-weight: 500;
+  padding: .4em 2em .4em 2em;
+  display:flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeeee;
+  box-shadow:inset -8px -8px  8px #fff,inset 8px 8px 8px #cbced1,inset 2px 3px 3px #8e8e91;
+  border: 0px solid #e3e1e1;
+  border-radius: 14px ;
+  outline: none;
+}
+.button:hover{
+
+  box-shadow: inset 2px 3px 3px #606065,inset -5px -4px  5px #fff ,5px 4px 7px #838486;
+}
+.button:active{
+  box-shadow: inset 2px 3px 6px #a5a6a9,inset -5px -4px  5px #fff ,5px 4px 7px #454652;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+#footer{
+  padding: 3em 4em 3em 4em;
+  background-color: #c10000;
+  margin-top: 2em;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+
+}
+h5,p{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #d7d7d7;
+}
+
+p{
+  padding: 4rem 0rem 0rem 0rem ;
+  font-size: 0.8rem;
+}
+#footer i{
+  color: #fff;
+  padding: 3rem;
+  font-size: 1rem;
+  position: relative;
+}
+
+#footer i:hover{
+  color: #000;
+
+}
+@media only (min-width:720px) and (max-width:1024px) {
+  html,body{
+    margin:0;
+    padding: 0;
+    width:100%;
+    height:100%;
+      overflow-x: hidden;
+  }
+  #highers{
+    position: relative;
+      overflow: hidden;
+  }
+
+  #footer,.navbar,.disclaim{
+    width: 100%;
+  }
+  #footer i{
+
+    font-size: 1rem;
+    padding: 2rem;
+  }
+
+  #footer{
+    padding: 1em 1em 1em 1em;
+  }
+
+  p{
+    padding: 1rem 0rem 0rem 0rem ;
+  }
+
+
+  .row img {
+    position: relative;
+    bottom: 0;
+    max-width: 11rem;
+    height: 14rem;
+    width: 24rem;
+  }
+    .button{
+      position: relative;
+      padding: .7em 1em .7em 1em;
+    }
+
+    .lower {
+      margin-left: 70%;
+      font-size: 1.2rem;
+    }
+
+    .firstbrand {
+      margin-left: 1rem;
+    }
+
+}
+@viewport{
+  width: device-width;
+  zoom:1.0;
+}
